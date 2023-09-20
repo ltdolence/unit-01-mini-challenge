@@ -1,0 +1,31 @@
+* {
+    font-family:Arial, Helvetica, sans-serif
+}
+header {
+    background-color: darkgreen;
+    padding: 8px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-link{
+    display: inline;
+    font-size: large;
+    margin-left: 40px;
+}
+
+.link {
+    color: white;
+}
+
+.navigation {
+    margin-left: 1100px;
+}
+
+#main {
+    margin: auto;
+}
+
