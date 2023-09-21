@@ -33,6 +33,7 @@ a {
 h1,
 h3 {
     text-align: center;
+
 }
 
 img {
@@ -60,6 +61,10 @@ p{
     border: 5px solid tan;
 }
 
+.contact-section {
+    border: 20px solid rgb(206, 186, 159);
+}
+
 footer{
     background-color: darkgreen;
     border-bottom: 10px solid black;
@@ -69,4 +74,12 @@ footer{
 #footer-text{
     margin-top: auto;
     margin-bottom: auto;
+}
+
+#fixed-box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 5%;
 }
