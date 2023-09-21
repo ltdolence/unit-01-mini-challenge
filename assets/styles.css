@@ -3,7 +3,7 @@
 }
 header {
     background-color: darkgreen;
-    padding: 8px;
+    padding: 6px;
     
 }
 
@@ -60,11 +60,6 @@ p{
 
 .form-section {
     border: 5px solid tan;
-}
-
-input,
-label {
-    text-align: center;
 }
 
 
