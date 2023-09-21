@@ -22,10 +22,51 @@ a {
 }
 
 .navigation {
-    margin-left: 1100px;
+    text-align: right;
 }
 
 #main {
     margin: auto;
+    border-top: 10px solid rgb(206, 186, 159);
 }
 
+h1,
+h3 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    text-align: center;
+}
+
+.contact-section{
+    background-color: rgb(206, 186, 159);
+}
+
+.name,
+.email {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.form-section {
+    border: 5px solid tan;
+}
+
+footer{
+    background-color: darkgreen;
+    border-bottom: 10px solid black;
+    color: white;
+}
+
+#footer-text{
+    margin-top: auto;
+    margin-bottom: auto;
+}

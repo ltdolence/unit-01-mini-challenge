@@ -17,21 +17,30 @@
         </header>
         <section id="main">
             <h1>My New Website</h1>
-            <img src="assets/image-1.png">
+            <img src="assets/image-1.png" alt="coming soon">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </section>
 
-        <section>
-           <form>
-            <label>Name:</label>
-            <input type="text" name="name" id="name"/>
-            <label>Email:</label>
-            <input type="text" name="email" id="email"/>
-           </form> 
+        <section class="contact-section">
+            <h3>Contact Me</h3>
+            <div class="form-section">
+                <div class="name">
+                    <form id="name">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name"/>
+                    </form>
+                </div>
+                <div class="email">
+                    <form id="email">
+                        <label>Email:</label>
+                        <input type="text" name="email" id="email"/>
+                    </form>
+                </div>
+            </div>
         </section>
 
         <footer>
-            <p>@ 2023 My New Windows Productions</p>
+            <p id="footer-text">@ 2023 My New Windows Productions</p>
         </footer>
     </body>
 </html>
