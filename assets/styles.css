@@ -57,9 +57,16 @@ p{
     padding: 5px;
 }
 
+
 .form-section {
     border: 5px solid tan;
 }
+
+input,
+label {
+    text-align: center;
+}
+
 
 .contact-section {
     border: 20px solid rgb(206, 186, 159);
